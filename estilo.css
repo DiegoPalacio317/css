@@ -1,4 +1,18 @@
-body{
-    background-color: rgb(1, 5, 7)
+[href="https://www.senasofiaplus.edu.co/"] {
+
+    color: aliceblue;
+    text-decoration: none;
 }
-h1{color :#fff}
+main h1 {
+    color: blue;
+    font-size: 40px;
+}
+p {
+    color: blueviolet;
+}
+h1 , h2{
+    color: brown;
+    font-size: 45px;
+}
+
+
