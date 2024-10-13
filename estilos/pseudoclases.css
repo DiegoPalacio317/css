@@ -30,13 +30,13 @@ p{
     margin: 0 auto;
 }
 
-p::before,p::after{
+p::before, p::after{
     content: "";
     width: 100%;
     height: 4px;
     background-color: aqua;
     display: block;
-}
+  }
 
 
 
