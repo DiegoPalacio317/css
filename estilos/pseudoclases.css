@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    background-color: tomato;
+}
+.enlace{
+    display: block;
+    background-color: tomato;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-bottom: solid 3px #000;
+    transition: 0.5s;
+}
+.enlace:link {
+    background-color: red;
+    color:black;
+}
+.enlace:visited{
+    background-color: blue;
+}
+.enlace:hover{
+    background-color: brown;}
+p{
+    width: 70%;
+    margin: 0 auto;
+}
+
+p::before,p::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: aqua;
+    display: block;
+}
+
+
+
